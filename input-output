@@ -1,0 +1,18 @@
+#!/bin/bash
+#
+#
+a=`hostname`
+echo "this is $a computer"
+echo
+echo "what is your name?"
+read name
+echo
+echo "what is your age?"
+read age
+echo
+echo "how are you?"
+read about 
+echo 
+echo "hii $name"
+echo "$age you are so young"
+echo "$about thats great"

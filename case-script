@@ -1,0 +1,20 @@
+#!/bin/bash
+#
+#
+#
+echo
+echo "Please choose out from below options"
+echo
+echo 'a= Display date and time'
+echo 'b= Display calendar'
+echo 'c= List file and directories'
+echo 'd= show user login'
+echo
+     read choices
+     case $choices in
+a)date;;
+b)cal;;
+c)ls;;
+d)who;;
+*)echo Invalid choice -bye bye
+esac

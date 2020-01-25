@@ -1,0 +1,20 @@
+#!/bin/bash
+#Author: Nikhil sharma
+#Date: 
+#Description: Run basic linux tasks
+#Date Modified: 
+
+echo
+echo "This script will run a few basic tasks"
+echo
+pwd
+echo
+date
+echo
+whoami
+echo
+cal
+echo
+ls
+echo
+echo "EnD OF SCRIPT"
